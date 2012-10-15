@@ -61,6 +61,8 @@
       <TargetName>cordova.js</TargetName>
     </Content>
     <Content Include="scripts\main.js" />
+    <Content Include="styles\footer-background.png" />
+    <Content Include="styles\logo.png" />
     <Content Include="styles\main.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Telerik\ICE\Tools\Mobile\MobileTools.targets" />

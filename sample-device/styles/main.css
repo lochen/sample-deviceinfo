@@ -1,11 +1,40 @@
 body
 {
 	font-size: medium;
-	font-family: Verdana;
+	font-family: Segoe UI;
 }          
 button
 {
 	width: auto;
 	height: auto;
 	font-size: large;
+}
+
+footer
+{
+    width:100%;
+    height:22px;
+    position:fixed;
+    bottom:0px;
+    margin:0 auto;
+    background-image:url("footer-background.png");
+    background-repeat:repeat-x;
+}
+
+footer img
+{
+    height:19px;
+    width:83px;
+    float:left;
+    padding-left:12px;
+    padding-top:3px;
+}
+
+footer div
+{
+    float:right;
+    color:#ABADB0;
+    padding-right:12px;
+    padding-top:3px;
+    font-size:0.7em;
 }
