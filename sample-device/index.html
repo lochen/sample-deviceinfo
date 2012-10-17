@@ -2,20 +2,31 @@
 <html>
 	<head>
 		<title>Local Storage Sample</title>
-        <meta charset="utf-8">
+		<meta charset="utf-8">
 		<link rel="stylesheet" href="styles/main.css" />
 		<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
 		<script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
 	</head>
 	<body>
-            <button id="deviceName">Device Name</button><br/>
-            <button id="deviceCordovaVersion">Cordova version on device</button><br/>
-            <button id="devicePlatform">Device patform</button><br/>
-            <button id="deviceUUID">Device UUID</button><br/>
-            <button id="deviceVersion">Device version</button><br/>
-            <input id="infoField" type="text" readonly="readonly"><br/>
+		<header class="header">
+			<h1>Device Info Sample</h1>
+		</header>
+		<div class="content">
+			<div>
+				<button class="button" id="deviceName">Device Name</button>
+				<button class="button" id="deviceCordovaVersion">Cordova version</button>
+			</div>
+			<div>
+				<button class="button" id="devicePlatform">Device patform</button>
+				<button class="button" id="deviceUUID">Device UUID</button>
+			</div>
+			<div>
+				<button class="button big" id="deviceVersion">Device version</button>
+			</div>
+			<div id="infoField" type="text" readonly="readonly"></div>
+		</div>
 	</body>
-    <footer>
-        <img src="styles/logo.png"><div>Cordova API Samples</div>
-    </footer>
+	<footer class="footer">
+		<div>Cordova API Samples</div>
+	</footer>
 </html>
