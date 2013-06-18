@@ -1,7 +1,7 @@
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-    navigator.splashscreen.hide();
+	navigator.splashscreen.hide();
 	deviceInfoApp = new deviceInfoApp();
 	deviceInfoApp.run();
 }
@@ -32,7 +32,7 @@ deviceInfoApp.prototype = {
     
 	_viewDeviceName : function() {
 		var infoField = document.getElementById("infoField");
-		infoField.innerHTML = device.name;
+		infoField.innerHTML = device.model;
 	},
     
 	_viewCordovaVersion : function() {
